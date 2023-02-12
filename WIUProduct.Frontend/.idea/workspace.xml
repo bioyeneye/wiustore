@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd7cba64-3dbe-416f-a742-523461326312" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WIUProduct.API/script.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,7 @@
       <workItem from="1676147088365" duration="48000" />
       <workItem from="1676147145856" duration="27000" />
       <workItem from="1676147360874" duration="38000" />
-      <workItem from="1676147503995" duration="12991000" />
+      <workItem from="1676147503995" duration="13590000" />
     </task>
     <servers />
   </component>
