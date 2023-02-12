@@ -1,0 +1,38 @@
+<div >
+  <h2>Product List</h2>
+  <div class="shop-sku-list-item" *ngFor="let product of products">
+    <div class="list-item lv" role="none">
+      <a class="image-link" (click)="goTo(product)" >
+<!--         routerLink="/product/{{product.id}}" [state]="product">-->
+        <img class="product-image"
+             alt="{{product.title}}"
+             src="{{product.image}}"
+             srcset="{{product.image}} 2x">
+      </a>
+      <div class="information">
+        <h4 class="sku-title">
+          <a routerLink="/product/{{product.id}}">
+            {{product.title}}
+          </a>
+        </h4>
+
+
+      </div>
+
+      <div class="price-block">
+        <div class="priceView-hero-price priceView-customer-price">
+          <span aria-hidden="true">${{product.price}}</span>
+        </div>
+        <h3>
+          <span aria-hidden="true">{{product.comments}} Comments</span>
+        </h3>
+      </div>
+    </div>
+  </div>
+
+
+  <div *ngIf="hasMoreProduct">
+    <button class="btn btn-success" (click)="loadMore()">Next Load</button>
+  </div>
+</div>
+

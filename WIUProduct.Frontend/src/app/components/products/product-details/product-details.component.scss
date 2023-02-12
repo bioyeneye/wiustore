@@ -1,0 +1,35 @@
+.priceView-customer-price {
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.reviews-list {
+  list-style-type: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.review-item {
+  border-bottom: 1px solid #c5cbd5;
+  margin: 0;
+  outline: none;
+  padding: 30px 0;
+}
+
+.c-overlay-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.ugc-author {
+  overflow: hidden;
+}
+
+.ugc-review-body {
+  line-height: 19px;
+  margin-top: 10px;
+}
+
+.relative {
+  position: relative;
+}
