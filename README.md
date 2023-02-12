@@ -17,4 +17,4 @@ This project is built using PHP as backend and Angular in the frontend.
 
 ## Test URL
 
-[Demo link](http://www.wiu.edu/users/bio101/productlist)
+[Demo link](http://www.wiu.edu/users/bio101/products)
